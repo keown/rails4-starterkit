@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
+ruby '2.1.2'
 
 gem 'rails', '~> 4.1.0'
 
@@ -23,7 +23,8 @@ gem 'airbrake'                # use with airbrake.io or errbit
 # gem 'rack-google-analytics'
 
 # Data
-gem 'pg'
+#gem 'pg' #uncomment if you use pg
+gem 'mysql2'
 gem 'schema_plus'             # add better index and foreign key support
 # gem 'jbuilder'
 

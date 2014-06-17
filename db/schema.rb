@@ -78,7 +78,7 @@ ActiveRecord::Schema.define(version: 20140204233952) do
     t.datetime "updated_at"
     t.boolean  "is_admin"
     t.index ["confirmation_token"], :name => "index_users_on_confirmation_token", :unique => true
-    t.index ["email"], :name => "index_users_on_email", :unique => true, :case_sensitive => false
+    t.index ["email"], :name => "index_users_on_email", :unique => true
     t.index ["is_admin"], :name => "index_users_on_is_admin"
     t.index ["reset_password_token"], :name => "index_users_on_reset_password_token", :unique => true
     t.index ["unlock_token"], :name => "index_users_on_unlock_token", :unique => true
