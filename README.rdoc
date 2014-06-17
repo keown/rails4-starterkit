@@ -111,6 +111,10 @@ Modify config/locales/en.yml. Replace references to StarterKit.
 
 Modify config/application.rb. Replace references to StarterKit.
 
+* if you want you can change variable starterkit (casesensitive) everywhere with
+bin/set_title.sh starterkit myappname
+bin/set_title.sh Starterkit Myappname
+
 
 
 = Development
